@@ -1,0 +1,53 @@
+content-container {
+  display: block;
+  position: relative;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 120px;
+}
+
+page-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+section-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+quote-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+quote-container * {
+  font-weight: 400;
+}
+
+quote-container q {
+  margin-top: 0;
+}
+
+quote-author {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 2.5rem;
+}
+
+@media (min-width: 480px) {
+  content-container {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  content-container {
+    max-width: 768px;
+  }
+}

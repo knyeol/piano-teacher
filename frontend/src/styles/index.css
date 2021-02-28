@@ -1,0 +1,7 @@
+@import "variables.css";
+@import "global.css";
+@import "typography.css";
+@import "custom-tags.css";
+@import "navbar.css";
+@import "./pages/home.css";
+@import "./pages/blog.css";
